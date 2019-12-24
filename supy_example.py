@@ -18,8 +18,12 @@ Code can be easily changed to load many traces at a time (ie. gathers
 etc.) but may overflow memory.
 
 ex: sugain < stdin agc=1 | python supy_example.py | suximage
+ex: file_in.su < python supy_example.py > file_out.su 
 
 See README for more information
+
+IN:  STDIN  (SU)
+OUT: STDOUT (SU)
 """
 import sys
 import numpy as np
