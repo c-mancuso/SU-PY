@@ -22,6 +22,7 @@ using a keyword, but I wanted to lay it out as simply as possible for the time b
 Code can be easily changed to load many traces at a time (ie. gathers etc.) but may overflow memory.
 
 ex: sugain < stdin agc=1 | python supy_example.py | suximage
+
 ex: file_in.su < python supy_example.py > file_out.su 
 
 For more information on Seismic Unix see https://github.com/JohnWStockwellJr/SeisUnix/wiki
